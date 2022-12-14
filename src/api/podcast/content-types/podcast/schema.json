@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "podcasts",
+  "info": {
+    "singularName": "podcast",
+    "pluralName": "podcasts",
+    "displayName": "podcast",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "epsiodes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::epsiode.epsiode"
+    }
+  }
+}

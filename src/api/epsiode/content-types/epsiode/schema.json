@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "epsiodes",
+  "info": {
+    "singularName": "epsiode",
+    "pluralName": "epsiodes",
+    "displayName": "epsiode"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mp3Link": {
+      "type": "string"
+    }
+  }
+}
